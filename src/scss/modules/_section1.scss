@@ -1,0 +1,15 @@
+.contenu1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 350px;
+    background-color: rgba(232,230,224,255);
+    p:first-of-type{
+        margin:0;
+        text-align: center;
+       width: 50%;
+        color: red;
+    }
+}

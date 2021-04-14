@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+header{
+    background-image: url("../../../img/bg-header.png");
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+    nav{
+        display: flex;
+        background-color: #383c44;
+        .flati1{
+                width: 35%;
+                ul{ 
+                    list-style: none;
+                    display: flex;
+                    justify-content: center;
+                    li{
+                        font-size: 20px;
+                        color: white;
+                    }
+                }
+
+        
+        }
+        .flati2{
+            width: 50%; 
+                ul{
+                    display: flex;
+                    width: 100%;
+                    justify-content: space-evenly;
+                    list-style: none;
+                    li{
+                    font-size: 13px;
+                    color: white; 
+
+                    }
+                }
+        }
+}   }

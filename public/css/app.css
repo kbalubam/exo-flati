@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-image: url("../../../img/bg-header.png");
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  background-attachment: fixed;
+}
+header nav {
+  display: flex;
+  background-color: #383c44;
+}
+header nav .flati1 {
+  width: 35%;
+}
+header nav .flati1 ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+header nav .flati1 ul li {
+  font-size: 20px;
+  color: white;
+}
+header nav .flati2 {
+  width: 50%;
+}
+header nav .flati2 ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  list-style: none;
+}
+header nav .flati2 ul li {
+  font-size: 13px;
+  color: white;
+}
+
+.contenu1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 350px;
+  background-color: #e8e6e0;
+}
+.contenu1 p:first-of-type {
+  margin: 0;
+  text-align: center;
+  width: 50%;
+  color: red;
+}
+
+/*# sourceMappingURL=app.css.map */
