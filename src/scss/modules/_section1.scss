@@ -4,12 +4,26 @@
     align-items: center;
     justify-content: center;
     margin: 0;
-    height: 350px;
+    height: 300px;
     background-color: rgba(232,230,224,255);
     p:first-of-type{
-        margin:0;
+        margin-top:0;
+        margin-bottom: 20px;
         text-align: center;
-       width: 50%;
-        color: red;
+        width: 50%;
+       font-size: 30px;
+        span:first-of-type{
+            color: white;
+            background-color: #20a4cc;
+        }
+        span:nth-of-type(2){
+            color: #20a4cc;
+            font-weight: bold;
+        }
+    }
+    p:nth-of-type(2){
+        text-align: center;
+        font-size: 30px;
+
     }
 }
